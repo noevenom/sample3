@@ -11,4 +11,9 @@ public class HelloWorld {
 	    System.out.println("Hello: " + name);
 	    return "Hello " + name + "!";
 	}
+	@WebMethod()
+	public String sayGoodBye(String name){
+		System.out.println("GoodBye: " +name);
+		return "Goodbye " + name + "!";
+	}
 }
